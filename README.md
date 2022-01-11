@@ -43,11 +43,11 @@ model = AutoModel.from_pretrained('neuralmind/bert-large-portuguese-cased')
 
 # Execução do Script (fazendo a previsão da próxima palavra)
 
-Após realizar a instalação das dependências, pode executar cada célula do Google Colab seguindo a ordem das células. Na variável `top_k` pode ser definida a quantidade de palavras resutantes para previsões.
+Após realizar a instalação das dependências, pode executar cada célula do Google Colab seguindo a ordem das células. Na variável `top_k` pode ser definida a quantidade de palavras resultantes para previsões.
 
-Depois de rodar as células, ou seja, executar as funções em python até a função: get_all_predictions, será necessário fazer a entrada de dados (textos em portugûes). Essa entrada de dados é uma frase curta para o script fazer a previsão da próxima palavra levando em consideração a frase informada na variável: `input_text`
+Depois de rodar as células, ou seja, executar as funções em python até a função: get_all_predictions, será necessário fazer a entrada de dados (textos em português). Essa entrada de dados é uma frase curta para o script fazer a previsão da próxima palavra levando em consideração a frase informada na variável: `input_text`
 
-Depois da entrada de dados e execução da célula do Colab que cotém a variável `input_text`, será apresentada as possíveis previsões das palavras para completar a frase digitada anteriormente. Nesse caso os resultados será uma lista de palavras que poderão completar a frase. Dessa forma, é realizada a previsão da próxima palavra.
+Depois da entrada de dados e execução da célula do Colab que contém a variável `input_text`, será apresentada as possíveis previsões das palavras para completar a frase digitada anteriormente. Nesse caso o resultado será uma lista de palavras que poderão completar a frase. Dessa forma, é realizada a previsão da próxima palavra.
 
 # Relatório Técnico
 
