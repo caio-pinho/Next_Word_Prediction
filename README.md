@@ -1,4 +1,4 @@
-# Previsão da Próxima Palavra com BERT (acadêmico)
+# Previsão da Próxima Palavra no Idioma Português (acadêmico)
 
 Caio Pinho e David Araújo - Deep Learning
 
